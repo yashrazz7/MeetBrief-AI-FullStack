@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeetBrief AI - Smart Meeting Summarizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 MeetBrief AI</h1>
+            <p>Convert your long meeting transcripts into smart summaries & action items instantly.</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <textarea id="transcriptInput" placeholder="Paste your meeting transcript here... (e.g., John: We need to update the client...)"></textarea>
+                <button id="summarizeBtn">Generate Brief 🚀</button>
+            </div>
+
+            <div id="loading" class="hidden">Analyzing transcript... Please wait...</div>
+
+            <div id="outputSection" class="output-section hidden">
+                <div class="card">
+                    <h3>📊 Discussion Summary</h3>
+                    <p id="summaryText"></p>
+                    <button id="copyBtn" class="copy-btn">📋 Copy Full Brief</button>
+                </div>
+                
+                <div class="card">
+                    <h3>✔️ Action Items & Ownership</h3>
+                    <ul id="actionItemsList"></ul>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
