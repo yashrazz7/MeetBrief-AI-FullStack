@@ -1,4 +1,4 @@
-/* Styling & Modern Resets */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    /* 🎨 Soft Premium Beige to Lavender Warm Gradient */
+   
     background: linear-gradient(135deg, #f5f2eb 0%, #e8e3f5 100%);
     color: #2d2d2d;
     display: flex;
@@ -28,7 +28,7 @@ header {
 
 header h1 {
     font-size: 2.8rem;
-    color: #1e1b4b; /* Deep Indigo Tint */
+    color: #1e1b4b;
     font-weight: 800;
     margin-bottom: 12px;
     letter-spacing: -0.5px;
@@ -73,7 +73,7 @@ textarea:focus {
     box-shadow: 0 0 0 4px rgba(129, 140, 248, 0.15);
 }
 
-/* 🚀 Lavender Highlight Button */
+
 button {
     background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
     color: white;
@@ -92,7 +92,7 @@ button:hover {
     box-shadow: 0 6px 18px rgba(79, 70, 229, 0.3);
 }
 
-/* Copy Output Utilities Button */
+
 .copy-btn {
     background: #f3f0fa;
     color: #4f46e5;
@@ -111,7 +111,7 @@ button:hover {
     box-shadow: none;
 }
 
-/* Output Layout Structure */
+
 .output-section {
     display: flex;
     flex-direction: column;
@@ -154,7 +154,7 @@ button:hover {
     font-size: 0.98rem;
 }
 
-/* Utility Layouts */
+
 .hidden { display: none; }
 
 #loading {
