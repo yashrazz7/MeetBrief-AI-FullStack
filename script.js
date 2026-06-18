@@ -40,7 +40,7 @@ document.getElementById('summarizeBtn').addEventListener('click', async () => {
     }
 });
 
-// ✨ New Feature: Copy to Clipboard Logic Block
+
 document.getElementById('copyBtn').addEventListener('click', () => {
     const summary = document.getElementById('summaryText').innerText;
     
